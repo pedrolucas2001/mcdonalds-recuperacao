@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Recuperação</title>
+</head>
+<body>
+    <!-- Uma empresa de fast-food deseja que seja criado uma página home utilizando apenas HTML e CSS para que seja mostrado os seus produtos! O seu dever é fazer uma página que contenha:
+-O nome da empresa sendo McFoods
+-As cores predominantemente sendo vermelho, laranja, preto e amarelo
+-Seja mostrado ao menos 3 hamburgues em uma seção de descontos do dia
+-Tenha uma seção explicando sobre a empresa em si
+-Uma outra seção abordando os franqueados
+
+Critérios: 
+-Só poderá ser utilizado HTML e CSS, quaisquer outros elementos serão desconsiderados da avaliação
+-Deverá ter uma animação css em algum elemento da página -->
+<div id="pagina">
+    <nav>
+        <div id="mcFoods">
+           <img src="imgs/logoMcDonalds.png" alt="logoMcFoods" id="logoMcDonalds">
+           <a href="#" target="_blank" id="linkMcFoods">McFoods</a>
+        </div>
+
+        <div id="menu">
+            <ul>
+                <li><a href="#">Cardápio</a></li>
+                <li><a href="#">Promoções</a></li>
+                <li><a href="#">Quem somos</a></li>
+            </ul>
+        </div>
+
+        <div id="botoesAcesso">
+
+            <button id="criarConta"><a href="#"> Criar conta</a></button>
+            <button id="Entrar"><a href="#">Entrar</a></button>
+        </div>
+    </nav>
+        
+    <header>
+        <div id="banner">
+            <!-- <img src="imgs/imgBanner.jpg" width="100%" alt="imgBanner" id="imgBanner"> -->
+        </div>
+    </header>
+
+    <main>
+        <h1>Aproveite nossos produtos</h1>
+        
+        <div id="cardapio">
+            <h2>Cardápio</h2>
+            
+            <div id="opcoesDeHamburgueres">
+               
+                <div id="cheeseBurger" class="produtos">
+                    <img src="imgs/cheeseBurger.png" alt="fotoCheesBurger">
+                    <h4>Cheese Burger</h4>
+                    <h3>R$16,00</h3>
+                    <dl>
+                        <dt>298 kcal</dt><br>
+                        <dd>Um hamburguer (100% carne bovina), queijo sabor cheddar, cebola, picles, ketchup, mostarda e pão sem gergelim.</dd>
+                    </dl>
+                </div>
+                <div id="bigTasty" class="produtos">
+                    <img src="imgs/bigTasty" alt="fotoBigTasty">
+                    <h4>Big Tasty</h4> <br>
+                    <h3>R$18,00</h3><br>
+                    <dl>
+                        <dt>852 kcal</dt><br>
+                        <dd>Um hambúrguer (100% carne bovina), queijo sabor emental, tomate, alface americana, cebola, molho Tasty e pão com gergelim.</dd>
+                    </dl>
+                </div>
+
+                <div id="bigMac" class="produtos">
+                    <img src="imgs/bigMac" alt="fotoBigMac" id="fotoBigMac">
+                    <h4>Big Mac</h4>
+                    <h3>R$19,00</h3>
+                    <dl>
+                        <dt>499 kcal</dt> <br>
+                        <dd>Dois hambúrgueres (100% carne bovina), alface americana, queijo sabor cheddar, molho especial, cebola, picles e pão com gergelim</dd>
+                    </dl>
+                </div>
+            </div>
+        </div>
+        
+        <div id="descontosDoDia">
+            <h2>Descontos do dia</h2>
+
+            <div id="opcoesDesconto">
+                <div id="mcFritas" class="produtos">
+                    <img src="imgs/mcFritas" alt="fotoMcFritas">
+                    <h4>McFritas Pequena</h4>
+                    <h3>R$5,00</h3>
+                    <dl>
+                        <dt>211 kcal</dt>
+                        <dd>A batata frita mais famosa do mundo. Deliciosas batatas selecionadas, fritas, crocantes por fora, macias por dentro, douradas, irresistíveis, saborosas, famosas, e todos os outros adjetivos positivos que você quiser dar.</dd>
+                    </dl>
+                    
+                </div>
+
+                <div id="mcShake" class="produtos">
+                    <img src="imgs/mcShake.png" alt="fotoMcSkahe">
+                    <h4>McShake</h4>
+                    <h3>R$10,00</h3>
+                    <dl>
+                        <dt>425 kcal</dt>
+                        <dd>Deliciosamente cremoso. O novo McShake Morango é feito com leite e batido na hora. Uma delícia!</dd>
+                    </dl>
+                    
+                </div>
+                <div id="McNuggets" class="produtos">
+                    <img src="imgs/mcNuggets.png" alt="fotoMcNuggets">
+                    <h4>Chicken McNuggets 10 unidades</h4>
+                    <h3>R$5,00</h3>
+                    <dl>
+                        <dt>155 kcal</dt>
+                        <dd>10 Chicken McNuggets saborosos e crocantes de peito de frango. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt corporis sequi eos dignissimos, molestiae neque quos voluptatum esse aliquam obcaecati ad ducimus!</dd>
+                    </dl>
+                    
+                </div>
+            </div>
+        </div>
+
+
+        
+        <div id="franqueados">
+            <h2>Franquias</h2>
+            <div id="conteudoFranqueados">
+                <div id="franquiaPlano">
+                    <h3>Plano Piloto</h3> <br>
+                    <div id="imgFranquiaPlano" class="imgsFranquias"></div> <br>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat amet dolor voluptatum nihil at quia ad accusantium, voluptas impedit quas itaque odio saepe. Nihil saepe ipsam, labore illo repellendus est.*3</p>
+                </div>
+                <div id="franquiaTagua">
+                    <h3>Taguatinga</h3> <br>
+                    <div id="imgFranquiaTagua" class="imgsFranquias"></div> <br>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat amet dolor voluptatum nihil at quia ad accusantium, voluptas impedit quas itaque odio saepe. Nihil saepe ipsam, labore illo repellendus est.*3</p>
+                </div>
+                <div id="franquiaGuara">
+                    <h3>Guará</h3> <br>
+                    <div id="imgFranquiaGuara" class="imgsFranquias"></div> <br>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat amet dolor voluptatum nihil at quia ad accusantium, voluptas impedit quas itaque odio saepe. Nihil saepe ipsam, labore illo repellendus est.*3</p>
+                </div>
+                    
+            </div>
+        </div>
+
+        <div id="quemSomos">
+            <h2>Quem somos</h2>
+            <div id="imgQuemSomos"></div> <br>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis quidem cumque laboriosam rerum voluptate ullam harum architecto! Exercitationem, rem eos quibusdam est, sed odit vel consequatur magni eius ullam sequi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut nesciunt similique quaerat autem. Beatae at facilis expedita totam quis! Officia dolor, corporis dolorum at rem vero nihil ducimus sunt tempora.
+            Inventore officiis dolorum rem dignissimos voluptate vero unde eaque eligendi debitis architecto? Minima molestiae officia ad. Sit provident a, itaque voluptatibus dolores animi in voluptatem maxime, maiores minus magnam! Dolor!</p> <br>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis quidem cumque laboriosam rerum voluptate ullam harum architecto! Exercitationem, rem eos quibusdam est, sed odit vel consequatur magni eius ullam sequi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut nesciunt similique quaerat autem. Beatae at facilis expedita totam quis! Officia dolor, corporis dolorum at rem vero nihil ducimus sunt tempora.
+            Inventore officiis dolorum rem dignissimos voluptate vero unde eaque eligendi debitis architecto? Minima molestiae officia ad. Sit provident a, itaque voluptatibus dolores animi in voluptatem maxime, maiores minus magnam! Dolor!</p><br>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis quidem cumque laboriosam rerum voluptate ullam harum architecto! Exercitationem, rem eos quibusdam est, sed odit vel consequatur magni eius ullam sequi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut nesciunt similique quaerat autem. Beatae at facilis expedita totam quis! Officia dolor, corporis dolorum at rem vero nihil ducimus sunt tempora.
+            Inventore officiis dolorum rem dignissimos voluptate vero unde eaque eligendi debitis architecto? Minima molestiae officia ad. Sit provident a, itaque voluptatibus dolores animi in voluptatem maxime, maiores minus magnam! Dolor!</p>
+        </div>
+    </main>
+    <footer>
+        <div id="txtFooter">
+            <p>Todos os direitos reservados a Mcfoods</p> <br>
+            <p>&copy; Copyright 2023</p>
+        </div>
+    </footer>
+</div>
+
+
+
+
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,192 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: "Speedee",arial,helvetica,sans-serif;
+}
+#pagina{
+    min-width: 360px;
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+    margin: 0px auto;
+    background-color: #f2f2f2;
+}
+nav{
+    padding: 10px;
+    width: 80%;
+    height: auto;
+    margin: 0px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+#mcFoods{
+    width: 20%;
+    display: flex;
+    align-items: center;
+    
+}
+
+#logoMcDonalds{
+    width: 100px;
+}
+
+nav a{
+    text-decoration: none;
+
+}
+
+#menu{
+    width: 50%;
+  
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+#botoesAcesso{
+    width: 20%;
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+}
+
+#botoesAcesso button{
+    width: 80px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    background-color: yellow;
+}
+
+header{
+    width: 100%;
+    height: 800px;
+    background-image: url(imgs/imgBanner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+h1,h2{
+    text-align: center;
+    height: 100px;
+    line-height: 100px;
+}
+
+
+#cardapio{
+    width: 80%;
+    height: auto;
+    margin: 0px auto;
+    padding: 10px 0px;
+}
+
+#opcoesDeHamburgueres{
+   
+    display: flex;
+    justify-content: space-between;
+}
+#opcoesDeHamburgueres img{
+    width: 350px;
+}
+
+.produtos{
+    width: 30%;
+    height: auto;
+    border: 2px solid rgb(132, 132, 132);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 1px 1px 5px;
+    padding: 10px;
+    align-items: center;
+    background-color: white;
+}
+dl{
+    text-align: center;
+}
+
+#descontosDoDia{
+    width: 80%;
+    height: auto;
+    margin: 0px auto;
+    padding: 10px 0px;
+    margin-bottom: 100px;
+}
+
+#opcoesDesconto{
+    display: flex;
+    justify-content: space-between;
+}
+#opcoesDesconto img{
+    width: 350px;
+}
+
+#conteudoFranqueados{
+    width: 80%;
+    height: auto;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.imgsFranquias{
+    margin: 0px auto;
+    width: 100%;
+    height: 700px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+}
+#imgFranquiaPlano{
+    background-image: url(imgs/franquiaPlano.jpg);
+}
+#imgFranquiaTagua{
+    background-image: url(imgs/franquiaTagua.jpg);
+}
+#imgFranquiaGuara{
+    background-image: url(imgs/franquiaGuara.jpg);
+}
+
+#quemSomos{
+    width: 80%;
+    height: auto;
+    margin: 0px auto;
+    margin-bottom: 100px;
+}
+
+#imgQuemSomos{
+    width: 100%;
+    height: 600px;
+    background-image: url(imgs/imgQuemSomos.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+}
+#quemSomos p{
+    text-align: left;
+}
+
+footer{
+    width: 100%;
+    height: 100px;
+    background-color: #bebebe;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#txtFooter{
+    text-align: center;
+}
+
