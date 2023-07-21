@@ -55,13 +55,28 @@ ul{
     gap: 20px;
 }
 
-#botoesAcesso button{
-    width: 80px;
+button{
+    width: 100px;
     height: 50px;
     border-radius: 10px;
     border: none;
     background-color: yellow;
+    color:black;
+    font-weight: bold;
+    transition: 1s;
 }
+
+button:hover{
+    background-color: black;
+    color: yellow;
+    cursor: pointer;
+}
+
+nav a{
+    color: black;
+}
+
+
 
 header{
     width: 100%;
@@ -94,6 +109,9 @@ h1,h2{
     width: 350px;
 }
 
+
+
+
 .produtos{
     width: 30%;
     height: auto;
@@ -106,12 +124,22 @@ h1,h2{
     padding: 10px;
     align-items: center;
     background-color: white;
+    transition: 1s;
 }
+
+.produtos:hover{
+    background-color: yellow;
+    color: black;
+    cursor: pointer; 
+}
+
+
 dl{
     text-align: center;
 }
 
-#descontosDoDia{
+
+#promocoesDoDia{
     width: 80%;
     height: auto;
     margin: 0px auto;
@@ -119,11 +147,11 @@ dl{
     margin-bottom: 100px;
 }
 
-#opcoesDesconto{
+#opcoesPromocoes{
     display: flex;
     justify-content: space-between;
 }
-#opcoesDesconto img{
+#opcoesPromocoes img{
     width: 350px;
 }
 
